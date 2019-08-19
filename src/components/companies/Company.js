@@ -1,6 +1,6 @@
 import React from "react";
 import CompaniesCard from "./CompaniesCard";
-import companiesData from '../../data/CompaniesData';
+import companiesData from '../../data/companiesData';
 
 function Company(props) {
     const {name, imageName, location, position, workDesc, timePeriod} = companiesData[props.name];

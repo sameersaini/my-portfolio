@@ -1,5 +1,6 @@
-import myImage from "../img/image.jpg";
 import React from "react";
+import Social from './social-contacts/Social'
+import myImage from "../img/image.jpg";
 
 function TopContent(props) {
     return (
@@ -15,31 +16,11 @@ function TopContent(props) {
                                 <h2 className="display-4">
                                     Sameer Saini
                                 </h2>
-                                <div>
-                                    <a href="https://www.linkedin.com/in/sameer-saini" className="text-white" target="_blank" rel="noopener noreferrer">
-                                        <i className="fab fa-linkedin fa-2x" />
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://github.com/sameersaini" className="text-white" target="_blank" rel="noopener noreferrer">
-                                        <i className="fab fa-github fa-2x" />
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://www.hackerrank.com/hacky_sam" className="text-white" target="_blank" rel="noopener noreferrer">
-                                        <i className="fab fa-hackerrank fa-2x" />
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://medium.com/@sameersaini40" className="text-white" target="_blank" rel="noopener noreferrer">
-                                        <i className="fab fa-medium fa-2x" />
-                                    </a>
-                                </div>
-                                <div className="d-none d-md-block">
-                                    <a href="https://www.facebook.com/sainisameer1" className="text-white" target="_blank" rel="noopener noreferrer">
-                                        <i className="fab fa-facebook fa-2x" />
-                                    </a>
-                                </div>
+                                <Social name="linkedin"/>
+                                <Social name="github"/>
+                                <Social name="hackerrank"/>
+                                <Social name="medium"/>
+                                <Social name="facebook"/>
                             </div>
                         </div>
                         <div className="bg-black p-4">

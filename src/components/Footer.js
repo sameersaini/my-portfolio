@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer () {
     return (
-        <footer id="main-footer" className="p-5 bg-dark text-white">
+        <footer id="main-footer" className="p-4 bg-dark text-white">
             <div className="row">
                 <div className="col-md-6">
                     <a href="https://s3.amazonaws.com/sameer-saini-resume/Resume.pdf" target="_blank"
