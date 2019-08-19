@@ -1,10 +1,10 @@
-import Footer from "./Footer";
+import Footer from "./main/Footer";
 import React from "react";
-import TopContent from "./TopContent";
-import Home from "./Home";
-import Resume from "./Resume";
-import Work from "./Work";
-import Contact from "./Contact";
+import TopContent from "./main/TopContent";
+import Home from "./main/Home";
+import Resume from "./main/Resume";
+import Work from "./main/Work";
+import Contact from "./main/Contact";
 
 class MainContent extends React.Component {
     constructor(props) {

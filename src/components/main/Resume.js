@@ -1,6 +1,6 @@
 import React from "react";
 import Collapse from "react-bootstrap/Collapse";
-import Company from "./companies/Company";
+import Company from "../companies/Company";
 
 function Resume(props) {
     return (
