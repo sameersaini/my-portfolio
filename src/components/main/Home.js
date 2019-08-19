@@ -1,5 +1,6 @@
 import React from "react";
 import Collapse from "react-bootstrap/Collapse";
+import ProgressBar from "../progress-bar/ProgressBar";
 
 function Home(props) {
     return (
@@ -8,69 +9,45 @@ function Home(props) {
                 <div className="top-card card card-body bg-primary text-white py-4">
                     <h2>Welcome To My Page</h2>
                     <p className="lead">
-                        Having 3.5+ years of experience as a Software Engineer with a demonstrated history of working in the
-                        information technology and services industry.
+                        Having 5+ years of experience as a Software Engineer with a demonstrated history of working in the
+                        software and information technology industry.
                     </p>
                 </div>
                 <div className="card card-body py-5">
                     <h3>My Skills</h3>
-
-
                     <table className="table table-bordered shadow-lg">
                         <tbody>
                         <tr>
                             <td>Languages</td>
-                            <td>NodeJS, React, Redux, Php, Python, Html, CSS, Javascript, Shell Scripting</td>
+                            <td>Javascript, NodeJS, Php, Python, Java, Html, CSS, SASS, Shell Scripting</td>
                         </tr>
                         <tr>
                             <td>Frameworks</td>
-                            <td>ExpressJS, HapiJS, Php Yii2 framework, Laravel</td>
+                            <td>Php Laravel, ReactJs, VueJs, Angular, Redux, Vuex, Ngrx,  ExpressJS, HapiJS, Bootstrap</td>
                         </tr>
                         <tr>
                             <td>Databases</td>
-                            <td>MySql, MongoDB, Oracle</td>
+                            <td>Relational(MySql, Oracle, MSSQL), NoSql (MongoDB, AWS DynamoDB)</td>
                         </tr>
                         <tr>
                             <td>Other</td>
-                            <td>Amazon Web Services( EC2, S3, CloudFront, RDS, VPC, Elastic Load Balancer, Route 53, CodePipeline),
-                                Docker, Kubernetes, GIT, Vim, Heroku
+                            <td>PhpUnit, Mocha, Jest, Amazon Web Services (EC2, S3, CloudFront, RDS, VPC, Elastic Load Balancer,  Route 53), Docker, Kubernetes, Redis, GIT, Vim, Heroku, New Relic, Jira, Robo 3T, Postman, Jest
                             </td>
                         </tr>
                         </tbody>
                     </table>
                     <hr/>
-                    <h4>Php</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "85%"}}>85%</div>
-                    </div>
-                    <h4>Python</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "75%"}}>75%</div>
-                    </div>
-                    <h4>React</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "70%"}}>70%</div>
-                    </div>
-                    <h4>NodeJs</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "85%"}}>85%</div>
-                    </div>
-                    <h4>Javascript</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "90%"}}>90%</div>
-                    </div>
-                    <h4>HTML 5</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "80%"}}>80%</div>
-                    </div>
-                    <h4>CSS 3</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "60%"}}>60%</div>
-                    </div>
-                    <h4>Shell Scripting</h4>
-                    <div className="progress mb-3">
-                        <div className="progress-bar bg-success" style={{width: "90%"}}>90%</div>
-                    </div>
+                    <ProgressBar name="Javascript" percentage="80"/>
+                    <ProgressBar name="NodeJs" percentage="85"/>
+                    <ProgressBar name="Php" percentage="85"/>
+                    <ProgressBar name="Python" percentage="75"/>
+                    <ProgressBar name="Java" percentage="75"/>
+                    <ProgressBar name="HTML 5" percentage="80"/>
+                    <ProgressBar name="CSS 3" percentage="70"/>
+                    <ProgressBar name="SASS" percentage="60"/>
+                    <ProgressBar name="Shell Scripting" percentage="80"/>
+                    <ProgressBar name="Mysql" percentage="85"/>
+                    <ProgressBar name="MongoDB" percentage="70"/>
                 </div>
             </div>
         </Collapse>
