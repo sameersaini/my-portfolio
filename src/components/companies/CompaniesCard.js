@@ -1,4 +1,5 @@
 import React from "react";
+const images = require.context('../../img', true);
 
 function CompaniesCard(props) {
     const workDesc = [];
@@ -6,20 +7,21 @@ function CompaniesCard(props) {
         workDesc.push(<li key={index}>{value}</li>)
     }
 
+    let imgSrc = images('./' + props.imageName);
     return (
         <div className="card">
             <div className="card-header">
                 <div>
                     <span>
-                        <strong>{props.companyName}</strong>
+                        <img src={imgSrc} className="img-fluid mr-2" alt="" style={{width: '25px'}}/><strong>{props.companyName}</strong>
                     </span>
-                    <span className="float-right">
+                    <span className="float-right d-none d-lg-inline">
                         <i className="fas fa-map-marker-alt"/> {props.location}
                     </span>
                 </div>
             </div>
             <div className="card-body">
-                <p className="p-2 mb-2 bg-dark text-white">
+                <p className="p-2 mb-2 bg-info text-white">
                     {props.position}
                 </p>
                 <ul>

@@ -1,6 +1,7 @@
 const COMPANIES_DATA = {
     "clearlink" : {
         name: "Clearlink Technologies",
+        imageName: "clearlink.jpg",
         location: "Salt Lake City, Utah",
         position: "Software Developer",
         workDesc: [
@@ -10,6 +11,7 @@ const COMPANIES_DATA = {
     },
     "clicklabs" : {
         name: "Click Labs Pvt. Ltd.",
+        imageName: "clicklabs.png",
         location: "Chandigarh, India",
         position: "Full Stack Web Developer",
         workDesc: [
@@ -20,6 +22,7 @@ const COMPANIES_DATA = {
     },
     "aspiringminds" : {
         name: "Aspiring Minds Pvt. Ltd.",
+        imageName: "aspringminds.png",
         location: "Gurgaon, India",
         position: "Software Engineer",
         workDesc: [
@@ -29,6 +32,7 @@ const COMPANIES_DATA = {
     },
     "hp" : {
         name: "Hewlett Packard",
+        imageName: "hp.jpg",
         location: "Chennai, India",
         position: "Data Engineer",
         workDesc: [

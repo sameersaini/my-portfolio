@@ -5,7 +5,7 @@ function Work(props) {
     return (
         <Collapse in={props.components.work}>
             <div id="work">
-                <div className="top-card card card-body bg-secondary text-white py-5">
+                <div className="top-card card card-body bg-secondary text-white py-4">
                     <h2>My Work</h2>
                     <p className="lead">Pending....</p>
                 </div>

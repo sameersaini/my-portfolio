@@ -5,7 +5,7 @@ function Home(props) {
     return (
         <Collapse in={props.components.home}>
             <div id="home">
-                <div className="top-card card card-body bg-primary text-white py-5">
+                <div className="top-card card card-body bg-primary text-white py-4">
                     <h2>Welcome To My Page</h2>
                     <p className="lead">
                         Having 3.5+ years of experience as a Software Engineer with a demonstrated history of working in the

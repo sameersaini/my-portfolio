@@ -5,7 +5,7 @@ function Contact(props) {
     return (
         <Collapse in={props.components.contact}>
             <div id="contact">
-                <div className="top-card card card-body bg-danger text-white py-5">
+                <div className="top-card card card-body bg-danger text-white py-4">
                     <h2>Contact</h2>
                     <p className="lead">Kindly fill the form below to get in touch</p>
                 </div>

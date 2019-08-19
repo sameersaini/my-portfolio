@@ -6,7 +6,7 @@ function Resume(props) {
     return (
         <Collapse in={props.components.resume}>
             <div id="resume">
-                <div className="top-card card card-body bg-success text-white py-5">
+                <div className="top-card card card-body bg-success text-white py-4">
                     <h2 className="d-inline">Resume</h2>
                     <span className="mb-2">
                       <a href="https://s3.amazonaws.com/sameer-saini-resume/Resume.pdf" target="_blank"
