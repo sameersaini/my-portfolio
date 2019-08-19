@@ -12,7 +12,7 @@ function TopContent(props) {
                 </div>
                 <div className="col-lg-8 col-md-7">
                     <div className="d-flex flex-column">
-                        <div className="p-5 bg-dark text-white">
+                        <div className="px-5 py-5 bg-dark text-white">
                             <div className="d-flex flex-row justify-content-between align-items-center">
                                 <h2 className="display-4">
                                     Sameer Saini
@@ -22,6 +22,9 @@ function TopContent(props) {
                                 <Social name="hackerrank"/>
                                 <Social name="medium"/>
                                 <Social name="facebook"/>
+                            </div>
+                            <div className="d-flex flex-row justify-content-end">
+                                    MS Information Systems, University of Utah, GPA 4.0
                             </div>
                         </div>
                         <div className="bg-black p-4">
