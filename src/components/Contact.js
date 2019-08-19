@@ -39,7 +39,7 @@ function Contact(props) {
                                       <i className="fas fa-pencil-alt" />
                                   </span>
                                 </div>
-                                <textarea id="messagetext" className="form-control bg-dark text-white" placeholder="Name" />
+                                <textarea id="messagetext" className="form-control bg-dark text-white" placeholder="Message" />
                             </div>
                         </div>
                         <input type="submit" id="submit" className="btn btn-danger btn-block btn-lg" />
