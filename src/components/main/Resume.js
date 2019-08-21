@@ -19,14 +19,10 @@ function Resume(props) {
                 </div>
                 <div className="card card-body py-5">
                     <h3>Where Have I Worked?</h3>
-                    <div className="card-deck ">
-                        <Company name="clearlink"/>
-                        <Company name="clicklabs"/>
-                    </div>
-                    <div className="card-deck mt-3">
-                        <Company name="aspiringminds"/>
-                        <Company name="hp"/>
-                    </div>
+                    <Company name="clearlink"/>
+                    <Company name="clicklabs"/>
+                    <Company name="aspiringminds"/>
+                    <Company name="hp"/>
                 </div>
             </div>
         </Collapse>

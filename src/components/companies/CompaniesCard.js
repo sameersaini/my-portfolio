@@ -9,11 +9,15 @@ function CompaniesCard(props) {
 
     let imgSrc = images('./' + props.imageName);
     return (
-        <div className="card">
+        <div className="card m-2">
             <div className="card-header">
                 <div>
                     <span>
-                        <img src={imgSrc} className="img-fluid mr-2" alt="" style={{width: '25px'}}/><strong>{props.companyName}</strong>
+                        <img src={imgSrc} className="img-fluid mr-2" alt="" style={{width: '25px'}}/>
+                        <strong>{props.companyName}</strong>
+                    </span>
+                    <span className="ml-2">
+                        -- {props.position}
                     </span>
                     <span className="float-right d-none d-lg-inline">
                         <i className="fas fa-map-marker-alt"/> {props.location}
@@ -21,9 +25,6 @@ function CompaniesCard(props) {
                 </div>
             </div>
             <div className="card-body">
-                <p className="p-2 mb-2 bg-info text-white">
-                    {props.position}
-                </p>
                 <ul>
                     {workDesc}
                 </ul>

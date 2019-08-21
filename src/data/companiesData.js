@@ -5,7 +5,10 @@ const COMPANIES_DATA = {
         location: "Salt Lake City, Utah",
         position: "Software Developer",
         workDesc: [
-            "Automated a number of tasks using python and shell scripting to ensure the integrity of the data going in and out of the warehouse which reduced manual data checking effort by 90%."
+            "Created highly scalable and optimized APIs in Php laravel framework by following TDD & object oriented design.",
+            "Created a uniform experience for the platform users by developing reusable front end components in Vue.js.",
+            "Modeled database schemas and designed normalized databases in MySql to fetch and save the data in an optimized way.",
+            "Minimized development misses and ensured maximum code coverage by creating unit and feature tests to."
         ],
         timePeriod: "Jan, 2019 - Present"
     },
@@ -15,9 +18,13 @@ const COMPANIES_DATA = {
         location: "Chandigarh, India",
         position: "Full Stack Web Developer",
         workDesc: [
-            "Created REST APIs, implemented real time location tracking using web sockets and configurable rule based matching algos.",
-            "Worked with AWS IAM service to create IAM users with restricted permissions to AWS S3 files."
-        ],
+            "Created REST APIs, developed real time location tracking using web sockets and configurable rule based matching algos.",
+            "Streamlined the payment flows in the app by integrating payment gateways such as Stripe, PayPal.",
+            "Restricted permissions to AWS S3 files by using the AWS IAM service to create IAM users.",
+            "Discussed, analysed and planned product design with project managers, UI team and business managers.",
+            "Star Performer of the month at Click Labs - Feb, 2018."
+
+],
         timePeriod: "Mar, 2017 - Jul, 2018"
     },
     "aspiringminds" : {
@@ -26,7 +33,11 @@ const COMPANIES_DATA = {
         location: "Gurgaon, India",
         position: "Software Engineer",
         workDesc: [
-            "Implemented a customised version of open source code compile/run engine called Domjudge that allowed us to offer the programming assessment test in more than 10 different programming languages in a chroot secure environment."
+            "Scaled the online programming test from 3 to 10+ programming languages by implementing a customised version of open source code compile/run engine called Domjudge.",
+            "Modelled and designed the database of version 2 of the project by analyzing the version 1 db schema and normalizing the tables to reduce redundant data.",
+            "Created a Code Video Player by implementing an algorithm to capture every keystroke entered by the candidate in the programming test",
+            "The Employee of the month at Aspiring Minds - Aug, 2016."
+
         ],
         timePeriod: "Jul, 2015 - Feb, 2017"
     },
@@ -36,7 +47,7 @@ const COMPANIES_DATA = {
         location: "Chennai, India",
         position: "Data Engineer",
         workDesc: [
-            "Automated a number of tasks using python and shell scripting to ensure the integrity of the data going in and out of the warehouse which reduced manual data checking effort by 90%."
+            "Reduced manual data checking effort by 90% by automating a number of data validation tasks to ensure the integrity of the data going in and out of the warehouse."
         ],
         timePeriod: "Sep, 2014 - Jul, 2015"
     }
