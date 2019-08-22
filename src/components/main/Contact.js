@@ -9,7 +9,7 @@ function Contact(props) {
                     <h2>Contact</h2>
                     <p className="lead">Kindly fill the form below to get in touch</p>
                 </div>
-                <div className="card card-body py-5">
+                <div className="card card-body py-4">
                     <h3>Get In Touch</h3>
                     <form id="contact-form mt-2">
                         <div className="form-group">

@@ -1,18 +1,22 @@
 import React from "react";
 import Collapse from "react-bootstrap/Collapse";
 
+import Project from '../projects/Project'
+import Certificates from "../certifications/Certificates";
+
 function Work(props) {
     return (
         <Collapse in={props.components.work}>
             <div id="work">
                 <div className="top-card card card-body bg-secondary text-white py-4">
                     <h2>My Work</h2>
-                    <p className="lead">Pending....</p>
+                    <p className="lead">Please find below all of my personal work</p>
                 </div>
-                <div className="card card-body py-5">
-                    <h3>What Have I Built?</h3>
-                    <p>To be changed....</p>
-
+                <div className="card card-body py-4">
+                    <Project name="tdd"/>
+                    <Project name="ghstats"/>
+                    <Project name="regex"/>
+                    <Certificates/>
                 </div>
             </div>
         </Collapse>

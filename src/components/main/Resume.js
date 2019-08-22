@@ -17,7 +17,7 @@ function Resume(props) {
                     <p className="lead">Click on the above link to download my resume and get a more detailed view of my
                         profile </p>
                 </div>
-                <div className="card card-body py-5">
+                <div className="card card-body py-4">
                     <h3>Where Have I Worked?</h3>
                     <Company name="clearlink"/>
                     <Company name="clicklabs"/>

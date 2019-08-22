@@ -13,7 +13,7 @@ function Home(props) {
                         software and information technology industry.
                     </p>
                 </div>
-                <div className="card card-body py-5">
+                <div className="card card-body py-4">
                     <h3>My Skills</h3>
                     <table className="table table-bordered shadow-lg">
                         <tbody>
