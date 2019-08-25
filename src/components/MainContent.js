@@ -12,8 +12,8 @@ class MainContent extends React.Component {
         this.state = {
             home: false,
             resume: false,
-            work: true,
-            contact: false
+            work: false,
+            contact: true
         }
     }
 

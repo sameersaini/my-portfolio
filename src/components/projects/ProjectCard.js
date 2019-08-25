@@ -1,9 +1,11 @@
 import React from "react";
+const HtmlToReactParser = require('html-to-react').Parser;
+const htmlToReactParser = new HtmlToReactParser();
 
 function ProjectCard(props) {
     const projectDesc = [];
     for (const [index, value] of props.projectDesc.entries()) {
-        projectDesc.push(<li key={index}>{value}</li>)
+        projectDesc.push(<li key={index}>{htmlToReactParser.parse(value)}</li>)
     }
 
     return (

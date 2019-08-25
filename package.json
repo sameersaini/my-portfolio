@@ -5,6 +5,7 @@
   "dependencies": {
     "autoprefixer": "^9.6.1",
     "bootstrap": "^4.3.1",
+    "html-to-react": "^1.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
     "react": "^16.9.0",
