@@ -10,10 +10,10 @@ class MainContent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            home: false,
+            home: true,
             resume: false,
             work: false,
-            contact: true
+            contact: false
         }
     }
 
