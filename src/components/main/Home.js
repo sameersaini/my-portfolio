@@ -7,8 +7,8 @@ function Home(props) {
         <Collapse in={props.components.home}>
             <div id="home">
                 <div className="top-card card card-body bg-primary text-white py-4">
-                    <h2>Welcome To My Page</h2>
-                    <p className="lead">
+                    <h2 className="display-heading-small">Welcome To My Page</h2>
+                    <p className="lead lead-sm">
                         Having 5+ years of experience as a Software Engineer with a demonstrated history of working in the
                         software and information technology industry.
                     </p>

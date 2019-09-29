@@ -14,7 +14,7 @@ function TopContent(props) {
                     <div className="d-flex flex-column">
                         <div className="px-5 py-5 bg-dark text-white">
                             <div className="d-flex flex-row justify-content-between align-items-center">
-                                <h2 className="display-4">
+                                <h2 className="display-heading-small display-4">
                                     Sameer Saini
                                 </h2>
                                 <Social name="linkedin"/>
@@ -24,7 +24,7 @@ function TopContent(props) {
                                 <Social name="facebook"/>
                             </div>
                             <div className="d-flex flex-row justify-content-end">
-                                    MS Information Systems, University of Utah, GPA 4.0
+                                    MS Information Systems, <span className="d-none d-sm-inline">University of Utah,</span> GPA 4.0
                             </div>
                         </div>
                         <div className="bg-black p-4">
