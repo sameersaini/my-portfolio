@@ -7,12 +7,12 @@ function TopContent(props) {
     return (
         <div id="main-header">
             <div className="row no-gutters">
-                <div className="col-lg-4 col-md-5">
-                    <img src={myImage} alt=""/>
+                <div className="col-lg-3 col-md-4">
+                    <img className="img-fluid" src={myImage} alt=""/>
                 </div>
-                <div className="col-lg-8 col-md-7">
+                <div className="col-lg-9 col-md-8">
                     <div className="d-flex flex-column">
-                        <div className="px-5 py-5 bg-dark text-white">
+                        <div className="px-5 py-4 bg-dark text-white">
                             <div className="d-flex flex-row justify-content-between align-items-center">
                                 <h2 className="display-heading-small display-4">
                                     Sameer Saini

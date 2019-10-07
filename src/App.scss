@@ -1,2 +1,18 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
+
+.bg-video {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 100vh;
+  width: 100vm;
+  z-index: -1;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
