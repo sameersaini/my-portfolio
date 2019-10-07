@@ -16,3 +16,11 @@
     object-fit: cover;
   }
 }
+
+.social-icon {
+  transition: all .5s;
+
+  &:hover {
+    transform: scale(1.5);
+  }
+}
